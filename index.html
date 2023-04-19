@@ -116,4 +116,11 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
   </body>
+    <script>
+      var visitCountElem = document.getElementById('visitCount');
+      if (visitCountElem) {
+        visitCountElem.innerText = localStorage.getItem('totalCount');
+      }
+    </script>
+
 </html>
