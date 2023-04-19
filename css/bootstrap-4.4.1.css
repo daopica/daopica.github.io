@@ -378,7 +378,8 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 0px;
 }
 
 h5, .h5 {
@@ -1669,7 +1670,7 @@ pre code {
     margin-left: 33.333333%;
   }
   .offset-xl-5 {
-    margin-left: 41.666667%;
+    margin-left: 39.667%;
     margin-top: -16px;
   }
   .offset-xl-6 {
