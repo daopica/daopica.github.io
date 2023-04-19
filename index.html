@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>嬲塞网</title>
 
+    <script>
+      var totalCount = parseInt(localStorage.getItem('totalCount'));
+    if (isNaN(totalCount)) {
+      totalCount = 0;
+    }
+    totalCount++;
+    localStorage.setItem('totalCount', totalCount.toString());
+
+    // 这里可以使用 Ajax 请求将 totalCount 发送给后端进行记录
+    </script>
+      
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 
@@ -94,6 +105,8 @@
              <h4>2023年尝试弄了个这好玩的网页&nbsp;&nbsp; </h4>
              <p>Copyright &copy; 2023 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
           </div>
+       </div>
+          网站访问人数: <span id="visitCount"></span> 
        </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
