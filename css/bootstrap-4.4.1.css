@@ -58,7 +58,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #FCFCFC;
     text-align: center;
     background-image: url(../images/beijing2.jpg);
     -webkit-box-shadow: 0px 0px;
@@ -151,9 +151,9 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
+    color: #CEE2F7;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 a:hover {
