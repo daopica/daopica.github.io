@@ -61,13 +61,13 @@ body {
     line-height: 1.5;
     color: #FCFCFC;
     text-align: center;
-    background-image: url(../images/beijing2.jpg);
+    background-image: url(../images/beijing12.jpg);
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
     font-style: normal;
     font-variant: small-caps;
-    background-position: -8% -1%;
-    background-size: 54% auto;
+    background-position: 130% -335%;
+    background-size: 102% auto;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
