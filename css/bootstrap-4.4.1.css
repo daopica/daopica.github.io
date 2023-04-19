@@ -84,9 +84,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: "宋体";
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    font-family: "宋体";
 }
 
 abbr[title],
@@ -136,6 +136,9 @@ blockquote {
 b,
 strong {
     font-weight: bolder;
+    margin-top: 0px;
+    padding-top: 0px;
+    top: 0%;
 }
 .jumbotron.jumbotron-fluid.text-center p strong {
 }
@@ -1140,6 +1143,7 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+    margin-top: -18px;
   }
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
@@ -5251,9 +5255,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  border-radius: 0;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    padding-top: 0px;
 }
 
 .alert {
