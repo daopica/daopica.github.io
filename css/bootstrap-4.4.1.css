@@ -38,7 +38,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16px;
 }
 
 html {
@@ -201,7 +202,9 @@ svg {
 }
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
+    left: 0%;
+    right: 0%;
 }
 
 caption {
@@ -213,7 +216,8 @@ caption {
 }
 
 th {
-  text-align: inherit;
+    text-align: inherit;
+    left: 0%;
 }
 
 label {
@@ -1666,6 +1670,7 @@ pre code {
   }
   .offset-xl-5 {
     margin-left: 41.666667%;
+    margin-top: -16px;
   }
   .offset-xl-6 {
     margin-left: 50%;
@@ -9946,6 +9951,7 @@ button.bg-dark:focus {
 
 .text-center {
     text-align: center !important;
+    margin-top: -16px;
 }
 
 @media (min-width: 576px) {
