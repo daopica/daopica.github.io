@@ -137,7 +137,6 @@ blockquote {
 b,
 strong {
     font-weight: bolder;
-    background-image: url(../images/beijing2.jpg);
 }
 .jumbotron.jumbotron-fluid.text-center p strong {
 }
@@ -387,7 +386,6 @@ h6, .h6 {
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
-    background-image: url(../images/beijing2.jpg);
 }
 
 .display-1 {
@@ -4732,7 +4730,7 @@ input[type="button"].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: rgba(214,246,231,0.30);
+    background-color: rgba(214,246,231,0.00);
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
